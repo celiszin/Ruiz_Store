@@ -1,0 +1,15 @@
+Configurar o GIT Local
+git config --global user.name Luiz O.
+git config --global user.email lui-otavio@hotmail.com
+
+dotnet new sln --name Ruiz_Store
+dotnet new mvc -o Ruiz_Store
+dotnet sln add Ruiz_Store\Ruiz_Store.csproj
+
+cd Ruiz_Storecd
+
+dotnet add pacote Microsoft.EntityFrameworkCore --version 9.0.1
+dotnet add pacote Microsoft.EntityFrameworkCore.Tools --version 9.0.1
+dotnet add pacote Microsoft.EntityFrameworkCore.Design --version 9.0.1
+dotnet add pacote Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 9.0.1
+dotnet add pacote MySql.EntityFrameworkCore --version 9.0.0
