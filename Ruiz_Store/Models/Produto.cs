@@ -25,5 +25,7 @@ namespace Ruiz_Store.Models;
         [Required(ErrorMessage = "Por favor, informe a quantidade em estoque")]
         public int QtdeEstoque { get; set; } = 0;
 
-        
+        [Required(ErrorMessage =  "Por favor, informe o valor do custo")]
+        [Column(TypeName = "numeric(10,2)")]
+        public decimal ValorVenda { get; set; }
     }
