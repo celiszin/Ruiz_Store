@@ -13,3 +13,4 @@ dotnet add pacote Microsoft.EntityFrameworkCore.Tools --version 9.0.1
 dotnet add pacote Microsoft.EntityFrameworkCore.Design --version 9.0.1
 dotnet add pacote Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 9.0.1
 dotnet add pacote MySql.EntityFrameworkCore --version 9.0.0
+
